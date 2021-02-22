@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main{
+  position: relative;
+}
+.header{
+}
+.upgrade{
+  background-color: #0F0F0F;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.button{
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 15px;
+}
+/* NAVIGATION SECTION */
+
+.navigation{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 100vh;
+  width: 250px;
+  z-index: 2;
+  padding: 15px
+}
+.spotify_nav{
+  width: 80%;
+}
+.ul_font{
+  color: white;
+}
