@@ -67,9 +67,9 @@ li{
   color: #B3B3A2;
 }
 .nav_svg{
-  height: 30px;
+  height: 25px;
   vertical-align: middle;
-  padding-right: 15px;
+  padding-right: 10px;
   filter: grayscale(.6) sepia(.9);
 }
 .a_white{
@@ -109,7 +109,7 @@ li{
 .crea_p{
   font-size: 15px;
   color: #B3B3A2;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   padding-left: 15px;
   display: inline-block;
 }
@@ -161,6 +161,8 @@ li{
   width: 100%;
   height: 80px;
   z-index: 3;
+  display: flex;
+  justify-content: space-between;
 }
 .username{
   font-weight: bold;
@@ -168,4 +170,33 @@ li{
   font-size: 15px;
   padding-left: 10px;
   display: inline-block;
+}
+.sinister{
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sinister_img{
+  height: 50px;
+  vertical-align: middle;
+}
+.ul_sin{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+.li_sinister{
+  color: white;
+}
+.li_brano{
+  color: #B3B3A2;
+  font-size: 13px;
+}
+.fa-folder, .fa-heart{
+  color: #B3B3A2;
+  padding-left: 10px;
+}
+.sin_entity{
+  margin-left: 40px;
 }
