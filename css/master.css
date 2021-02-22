@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
 }
 .clearfix:after {
   content: "";
@@ -34,6 +38,12 @@
   text-decoration: none;
   margin-right: 15px;
   font-size: 15px;
+  transition: .2s;
+}
+.button:hover{
+  font-size: 18px;
+  margin-right: 0px;
+  border-radius: 23px;
 }
 /* NAVIGATION SECTION */
 
@@ -49,7 +59,38 @@
 }
 .spotify_nav{
   width: 80%;
+  padding-bottom: 15px;
 }
 .ul_font{
+  color: #B3B3A2;
+  padding-bottom: 35px;
+}
+.nav_svg{
+  height: 30px;
+  vertical-align: middle;
+  padding-right: 15px;
+  filter: grayscale(.6) sepia(.9);
+}
+.a_white{
+  vertical-align: middle;
+  color: #B3B3A2;
+}
+.li_img_nav{
+ padding-top: 15px;
+}
+.a_white:hover{
   color: white;
+  filter: grayscale(0) sepia(0);
+}
+.li_img_nav:hover{
+  color: white;
+  filter: grayscale(0) sepia(0);
+}
+.nav_svg:hover{
+  filter: grayscale(0) sepia(0);
+}
+.h3_nav{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
