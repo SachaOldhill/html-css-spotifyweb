@@ -24,7 +24,7 @@ li{
   top: 0;
   right: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   justify-content: flex-end;
   display: flex;
   align-items: center;
@@ -55,7 +55,9 @@ li{
   height: 100vh;
   width: 250px;
   z-index: 2;
-  padding: 15px
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .spotify_nav{
   width: 80%;
@@ -63,7 +65,6 @@ li{
 }
 .ul_font{
   color: #B3B3A2;
-  padding-bottom: 35px;
 }
 .nav_svg{
   height: 30px;
@@ -93,4 +94,78 @@ li{
   color: white;
   font-weight: bold;
   font-size: 15px;
+  padding: 25px 0px;
+}
+.a_plus{
+  padding: 1px 12px;
+  background-color: lightgrey;
+  color: black;
+  font-size: 30px;
+  vertical-align: middle;
+}
+.ul_playlist{
+  overflow-y: auto;
+}
+.crea_p{
+  font-size: 15px;
+  color: #B3B3A2;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  display: inline-block;
+}
+.nome_play{
+  font-size: 15px;
+  color: #B3B3A2;
+  padding-bottom: 15px;
+  display: block;
+}
+.container{
+  width: 95%;
+  margin: auto;
+  align-items: flex-end;
+}
+.download{
+  height: 20px;
+  vertical-align: middle;
+  padding-right: 5px;
+  filter: grayscale(.6) sepia(.9);
+}
+.a_white{
+  vertical-align: middle;
+  color: #B3B3A2;
+  font-size: 13px;
+}
+.nav_username{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #B3B3A2;
+}
+.background_grey{
+  background-color: grey;
+  display: inline-block;
+  border-radius: 100%;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav_profile{
+  height: 100%;
+}
+/* PLAYER SECTION */
+.player{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  background-color: #29292C;
+  width: 100%;
+  height: 80px;
+  z-index: 3;
+}
+.username{
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+  display: inline-block;
 }
