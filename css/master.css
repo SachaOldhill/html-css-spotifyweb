@@ -13,16 +13,10 @@ li{
   display: table;
   clear: both;
 }
-.main{
-  position: relative;
-}
 .header{
 }
 .upgrade{
   background-color: #0F0F0F;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 100%;
   height: 80px;
   justify-content: flex-end;
@@ -48,12 +42,9 @@ li{
 /* NAVIGATION SECTION */
 
 .navigation{
-  position: absolute;
-  top: 0;
-  left: 0;
   background-color: black;
-  height: 100vh;
-  width: 250px;
+  height: calc(100vh - 100px);
+  width: 240px;
   z-index: 2;
   padding: 15px;
   display: flex;
@@ -105,6 +96,7 @@ li{
 }
 .ul_playlist{
   overflow-y: auto;
+  flex-grow: 1;
 }
 .crea_p{
   font-size: 15px;
@@ -161,9 +153,17 @@ li{
 }
 /* MAIN SECTION */
 main{
-  overflow-y: scroll;
+  /* da mettere nella parte scroll */
+    display: flex;
+    flex-direction: row;
+
   background-color: #1E1E1E;
   width: 100%;
+  height: calc(100vh - 100px)
+}
+.scroll{
+    overflow-y: auto;
+  width: calc(100% - 240px);
 }
 .display{
   display: block;
@@ -203,12 +203,9 @@ main{
 }
 /* PLAYER SECTION */
 .player{
-  position: absolute;
-  bottom:0;
-  left: 0;
   background-color: #29292C;
   width: 100%;
-  height: 80px;
+  height: 100px;
   z-index: 3;
   display: flex;
   justify-content: space-between;
@@ -247,6 +244,7 @@ main{
   justify-content: center;
   align-items: center;
   margin-top: 5px;
+  flex-grow: 1;
 }
 .li_play{
   display: inline-block;
