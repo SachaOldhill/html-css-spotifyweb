@@ -168,6 +168,39 @@ main{
 .display{
   display: block;
 }
+.container_img{
+  margin-left: 250px;
+  margin-top: 80px;
+  width: 150px;
+}
+.position_relative{
+  position: relative;
+}
+.layover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: #29292C;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.layover:hover{
+  opacity: 0.8;
+}
+.img_main{
+  width: 100%;
+}
+.img_main:hover{
+  opacity: 0.1;
+}
+.nav_play{
+  font-size: 35px;
+  color: white;
+}
 /* PLAYER SECTION */
 .player{
   position: absolute;
