@@ -152,6 +152,22 @@ li{
 .nav_profile{
   height: 100%;
 }
+.username{
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+  display: inline-block;
+}
+/* MAIN SECTION */
+main{
+  overflow-y: scroll;
+  background-color: #1E1E1E;
+  width: 100%;
+}
+.display{
+  display: block;
+}
 /* PLAYER SECTION */
 .player{
   position: absolute;
@@ -163,13 +179,6 @@ li{
   z-index: 3;
   display: flex;
   justify-content: space-between;
-}
-.username{
-  font-weight: bold;
-  color: white;
-  font-size: 15px;
-  padding-left: 10px;
-  display: inline-block;
 }
 .sinister{
   padding: 15px 10px;
@@ -199,4 +208,58 @@ li{
 }
 .sin_entity{
   margin-left: 40px;
+}
+.ul_play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.li_play{
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 20px;
+  color: white;
+}
+.li_player{
+  font-size: 30px
+}
+.l{
+  font-size: 25px;
+}
+.bar_play{
+  display: inline-block;
+  border-top: 4px solid white;
+  border-radius: 2px;
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.div_min{
+  vertical-align: middle;
+}
+.min{
+  vertical-align: sub;
+  color: white;
+}
+.prim{
+  margin-right: 30px;
+}
+.volume{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+.li_volume{
+  font-size: 15px;
+  padding-right: 15px;
+  color: white;
+  display: inline-block;
+}
+.bar{
+  border-top: 4px solid white;
+  border-radius: 2px;
+  width: 100px;
+  margin: 0px 15px;
 }
