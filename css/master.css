@@ -61,25 +61,23 @@ li{
   height: 25px;
   vertical-align: middle;
   padding-right: 10px;
-  filter: grayscale(.6) sepia(.9);
+
 }
 .a_white{
   vertical-align: middle;
-  color: #B3B3A2;
+  opacity: .7;
 }
 .li_img_nav{
  padding-top: 15px;
 }
 .a_white:hover{
   color: white;
-  filter: grayscale(0) sepia(0);
+  opacity: 1;
 }
 .li_img_nav:hover{
   color: white;
-  filter: grayscale(0) sepia(0);
 }
 .nav_svg:hover{
-  filter: grayscale(0) sepia(0);
 }
 .h3_nav{
   color: white;
@@ -112,9 +110,6 @@ li{
   display: block;
 }
 .container{
-  width: 95%;
-  margin: auto;
-  align-items: flex-end;
 }
 .download{
   height: 20px;
@@ -161,20 +156,57 @@ main{
   width: 100%;
   height: calc(100vh - 100px)
 }
+.main_nav{
+  display: flex;
+  justify-content: center;
+}
+.color{
+  color: #B3B3A2;
+}
+.ul_main_nav{
+  display: flex;
+}
+.li_main_nav{
+  padding: 25px 10px;
+  font-size: 16px;
+}
+.musica{
+  padding: 30px;
+  padding-top: 0px;
+}
+h2{
+  color: white;
+  padding: 25px 0px;
+}
 .scroll{
     overflow-y: auto;
   width: calc(100% - 240px);
 }
-.display{
-  display: block;
+.display_flex{
+  display: flex;
+  justify-content: space-around;
+}
+.container_album{
+  width: 15%;
 }
 .container_img{
-  margin-left: 250px;
-  margin-top: 80px;
-  width: 150px;
-}
-.position_relative{
+  width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.text_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img_title{
+  color: white;
+  padding: 5px 0px;
+}
+.img_subtitle{
+  color: #B3B3A2;
 }
 .layover{
   display: flex;
