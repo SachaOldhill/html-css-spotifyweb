@@ -358,3 +358,6 @@ h2{
 @media screen and (max-width:768px){
 
 }
+.radius{
+  border-radius: 100%;
+}
