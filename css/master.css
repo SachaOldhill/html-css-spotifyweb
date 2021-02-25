@@ -342,7 +342,12 @@ h2{
   width: 40%;
 }
 @media screen and (min-width:769px) and (max-width:992px){
-
+.sinister{
+  width: 25%;
+}
+.volume{
+  width: 25%;
+}
 }
 @media screen and (max-width:768px){
 
